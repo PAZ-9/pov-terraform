@@ -1,0 +1,63 @@
+# =========================
+# Terraform
+# =========================
+
+# Terraform working directory
+.terraform/
+
+# Terraform state files (VERY IMPORTANT - contains secrets)
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI config
+.terraformrc
+terraform.rc
+
+# =========================
+# Variables / Secrets
+# =========================
+
+*.tfvars
+*.tfvars.json
+*.auto.tfvars
+
+# Environment variables
+.env
+.env.*
+
+# =========================
+# SSH Keys (VERY IMPORTANT)
+# =========================
+
+*.pem
+*.key
+
+# =========================
+# OS / Editor
+# =========================
+
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# Terraform Lock File
+# =========================
+
+.terraform.lock.hcl

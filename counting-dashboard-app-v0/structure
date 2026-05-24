@@ -1,0 +1,11 @@
+dashboard-counting-app-v0/
+├── main.tf                # VPC, subnets, networking, security groups
+├── instance.tf            # EC2 instances (dashboard & counting)
+├── data.tf                # AMI + availability zones
+├── variables.tf           # Input variables
+├── terraform.tfvars       # Variable values
+├── outputs.tf             # Output values (URL, IPs)
+├── keypair.tf             # SSH key generation
+├── versions.tf            # Provider & Terraform version
+├── dashboard-userdata.sh.tpl   # Dashboard bootstrap script (templated)
+├── counting-userdata.sh        # Counting bootstrap script
